@@ -3,6 +3,7 @@
     package="com.example.quyet.inmyclass">
 
     <application
+
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -16,6 +17,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <meta-data
+            android:name="com.google.android.nearby.messages.API_KEY"
+            android:value="AIzaSyA6DVMWNNkB9vxet2QmqzF0eXShzvMLb_g" />
     </application>
+
 
 </manifest>
